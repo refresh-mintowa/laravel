@@ -10,6 +10,7 @@
     </head>
     <body>
        <h1>Blog</h1>
+       <P class="create">[<a href="/posts/create">create</a>]</P>
        <div class="posts">
            @foreach($posts as $post)
            <div class="post">
